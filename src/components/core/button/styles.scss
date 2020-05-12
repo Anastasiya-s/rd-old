@@ -1,0 +1,23 @@
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  font-family: "RobotoSlabRegular";
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #8aad33;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 17px 24px 0px rgba(29, 25, 25, 0.72);
+  &:hover {
+    background-color: #a7d338;
+  }
+  &:active {
+    background-color: #6d8a26;
+  }
+
+}

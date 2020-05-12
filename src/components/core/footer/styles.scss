@@ -1,0 +1,40 @@
+.contacts {
+  min-width: 1170px;
+  background-image: url("./img/menu-bg.jpg");
+  background-repeat: repeat-x;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 33px 0;
+}
+
+.contact {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-right: 70px;
+}
+
+.text {
+  padding: 0 10px;
+  font-family: "RobotoSlabLight";
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.phone {
+  padding: 0 10px;
+  font-family: "RobotoSlabLight";
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.border {
+  border-right: 1px solid #6d6564;
+}

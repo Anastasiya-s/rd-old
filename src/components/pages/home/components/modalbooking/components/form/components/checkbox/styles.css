@@ -1,0 +1,29 @@
+.label {
+  font-family: "RobotoSlabRegular";
+  font-size: 14px;
+  line-height: 25px;
+  padding-top: 5px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.label::before {
+  content: '';
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+  line-height: 25px;
+  border: 1px solid #d5d5d5;
+  vertical-align: middle;
+}
+
+.label:hover::before {
+  border: 1px solid #8aad33;
+}
+
+.input {
+  position: fixed;
+  opacity: 0;
+}
+/*# sourceMappingURL=styles.css.map */

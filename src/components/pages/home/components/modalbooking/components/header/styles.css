@@ -1,0 +1,45 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-image: url("./img/menu-bg.jpg");
+  background-repeat: repeat-x;
+}
+
+.title {
+  margin: 0;
+  padding: 20px 30px;
+  font-size: 30px;
+  color: #ffffff;
+  border: none;
+}
+
+.icon {
+  margin: 30px 20px;
+  cursor: pointer;
+  fill: #5c4e45;
+}
+
+.icon:hover {
+  fill: #7e6b5d;
+}
+
+.icon:active {
+  fill: #ffffff;
+}
+
+.button {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+/*# sourceMappingURL=styles.css.map */

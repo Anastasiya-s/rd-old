@@ -1,0 +1,112 @@
+.usability {
+  position: relative;
+  min-width: 1170px;
+  margin: 0;
+  padding-bottom: 125px;
+  text-align: center;
+  background-color: #f7f5f2;
+  background-image:
+    url('./img/bg-left.png'),
+    url('./img/bg-right.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position:
+    left top,
+    right top;
+  &::before {
+    content: url('./img/before.png');
+    display: inline-block;
+    position: absolute;
+    top: -43px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 1170px;
+  margin: 20px auto 0;
+  background-color: #ffffff;
+}
+
+.rightColumnItem {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.rightColumnImage {
+  width: 340px;
+  height: 250px;
+}
+
+.content {
+  position: relative;
+  padding: 15px;
+  background-color: #ffffff;
+  &::before {
+    position: absolute;
+    left: 28px;
+    top: -15px;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 15.5px 16px 15.5px;
+    border-color: transparent transparent #ffffff transparent;
+  }
+}
+
+.rightColumnContent {
+  position: relative;
+  width: 340px;
+  padding: 15px;
+}
+
+.pseudoRight::before {
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15.5px 16px 15.5px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.pseudoLeft::before {
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  display: block;
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15.5px 0 15.5px 16px;
+  border-color: transparent transparent transparent #ffffff;
+
+}
+
+.title {
+  font-family: "RobotoSlabBold";
+  font-size: 24px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+.text {
+  font-family: "RobotoSlabRegular";
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.header {
+  color: #000000;
+  border-color: #7e6b5d;
+}

@@ -1,0 +1,20 @@
+.list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.item {
+  padding: 33px 30px 33px 0;
+}
+
+.link {
+  padding: 0 7px;
+  font-family: "RobotoSlabLight";
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  &:hover {
+    color: #a7d338;
+  }
+}

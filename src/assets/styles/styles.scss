@@ -1,0 +1,23 @@
+@import 'reset.scss';
+@import 'fonts.scss';
+
+:global {
+    .app {
+        display: flex;
+        flex-flow: column nowrap;
+        flex: 1;
+
+        &__content {
+            display: flex;
+            flex-flow: column nowrap;
+            flex: 1;
+        }
+    }
+
+    .slick-list {
+      z-index: -1;
+    }
+    .slick-dots {
+      top: 70%;
+    }
+}

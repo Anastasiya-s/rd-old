@@ -1,0 +1,30 @@
+.container {
+  position: relative;
+  min-width: 1170px;
+  background-color: #392827;
+  text-align: center;
+  background-image: url("./img/food.png"), url("./img/broom.png"), url("./img/tv.png"), url("./img/croissant.png");
+  background-repeat: no-repeat;
+  background-position: left 10%, right 40%, left 70%, right 90%;
+}
+
+.container::before {
+  content: url("./img/features-before.png");
+  display: inline-block;
+  position: absolute;
+  top: -43px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.button {
+  width: 370px;
+  margin: 40px auto 90px;
+}
+
+.header {
+  color: #f7f5f2;
+  border-color: #f7f5f2;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 100px;
+  align-items: center;
+}
+
+.item {
+  padding: 13px 20px;
+}
+
+.text {
+  font-family: "RobotoSlabLight";
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.border {
+  text-align:right;
+  border-right: 1px solid #6d6564;
+}

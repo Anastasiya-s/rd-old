@@ -1,0 +1,44 @@
+.form {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #d2d2d2;
+  padding: 0 15px;
+}
+
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  width: 430px;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.info {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.amount {
+  width: 125px;
+  margin-right: 25px;
+}
+
+.date {
+  width: 170px;
+  padding-right: 30px;
+}
+
+.oneColumn {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.twoColumns {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.totalButton {
+  margin: 10px;
+}

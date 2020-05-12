@@ -1,0 +1,42 @@
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 125px;
+  padding-bottom: 80px;
+  background-color: #f3ebdd;
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+}
+
+.item {
+  width: 300px;
+}
+
+.text {
+  padding: 20px;
+  font-family: "RobotoSlabRegular";
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.text::after {
+  content: '';
+  display: block;
+  margin: 20px auto;
+  width: 70px;
+  height: 4px;
+  background-color: #a7d338;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,30 @@
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  padding-left: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item {
+  padding: 13px 20px;
+}
+
+.text {
+  font-family: "RobotoSlabLight";
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.border {
+  text-align: right;
+  border-right: 1px solid #6d6564;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,43 @@
+.fieldset {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 30px;
+}
+.label {
+  font-family: "RobotoSlabRegular";
+  font-size: 14px;
+  line-height: 25px;
+  padding-top: 5px;
+}
+
+.field {
+  width: 100%;
+}
+
+.title {
+  font-family: "RobotoSlabBold";
+  font-size: 14px;
+  line-height: 25px;
+  padding-top: 5px;
+}
+
+.input {
+  position: fixed;
+  opacity: 0;
+}
+
+.labelChecked {
+  margin-left: -16px;
+  &::before {
+    content: '';
+    display: block;
+    position: relative;
+    left: -4px;
+    width: 16px;
+    height: 16px;
+    background-image: url('./img/checked.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #8aad33;
+  }
+}

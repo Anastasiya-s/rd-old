@@ -1,0 +1,33 @@
+.map {
+  position: relative;
+  background-color: #392827;
+  text-align: center;
+}
+
+.map::before {
+  content: url("./img/pin.svg");
+  display: inline-block;
+  position: absolute;
+  top: -43px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 86px;
+  height: 86px;
+  padding: 22px 11px 0;
+  background-color: inherit;
+  border-radius: 50%;
+}
+
+.container {
+  width: 100%;
+  min-height: 600px;
+  background-image: url("./img/map.jpg");
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: #f7f5f2;
+  border-color: #7e6b5d;
+}
+/*# sourceMappingURL=styles.css.map */

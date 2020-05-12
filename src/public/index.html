@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+    <script src="https://api-maps.yandex.ru/2.1?apikey=b86e1c42-6330-4e1e-94fa-b0cac9990f51&lang=ru_RU"
+    type="text/javascript">
+      </script>
+  </head>
+  <body>
+    <div id="modal"></div>
+    <div class="app"></div>
+
+
+
+    <script>
+      ymaps.ready(init);
+        function init(){
+        var myMap = new ymaps.Map("map", {
+        center: [53.96, 30.47],
+        zoom: 14
+      });
+      myMap.geoObjects
+        .add(new ymaps.Placemark([53.96, 30.47], {
+          balloonContent: 'RD'
+        }, {
+          preset: 'islands#icon',
+          iconColor: 'red'
+        }))
+      };
+    </script>
+  </body>
+</html>

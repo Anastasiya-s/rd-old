@@ -1,0 +1,11 @@
+.header {
+  z-index: 10;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 1170px;
+  margin: 0;
+  background-image: url("./img/menu-bg.jpg");
+  background-repeat: repeat-x;
+}
